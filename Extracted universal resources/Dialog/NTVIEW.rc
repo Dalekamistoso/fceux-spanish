@@ -1,0 +1,28 @@
+NTVIEW DIALOGEX 44, 38, 352, 350, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
+CAPTION "Visualizador de nombres de tablas"
+FONT 8, "MS Shell Dlg", 0, FALSE
+{
+ GROUPBOX "Nombres de tablas:", 101, 2, 0, 347, 251, WS_TABSTOP
+ LTEXT "Refresco:   Más", -1, 225, 254, 50, 9
+ CONTROL "", 201, "msctls_trackbar32", WS_TABSTOP, 275, 254, 50, 11
+ LTEXT "Menos", -1, 325, 254, 20, 10
+ LTEXT "Mostrar en scanline:", 65534, 249, 269, 65, 9
+ EDITTEXT 102, 315, 267, 27, 12, ES_NUMBER
+ AUTOCHECKBOX "Mostrar líneas de scroll", 1008, 6, 254, 85, 10
+ AUTOCHECKBOX "Mostrar atributos", 1009, 6, 265, 69, 10
+ AUTOCHECKBOX "Ignorar Paletas", 1010, 6, 276, 69, 10
+ GROUPBOX "Espejado actual (mirroring)", -1, 2, 289, 170, 59
+ AUTORADIOBUTTON "Horizontal", 1001, 6, 300, 47, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Vertical", 1002, 6, 311, 39, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Cuatro pantallas", 1003, 6, 322, 65, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Pantalla única 0", 1004, 85, 300, 75, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Pantalla única 1", 1005, 85, 311, 75, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Pantalla única 2", 1006, 85, 322, 75, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Pantalla única 3", 1007, 85, 333, 75, 10, NOT WS_TABSTOP
+ GROUPBOX "Propiedades", -1, 174, 289, 175, 59
+ LTEXT "Tile ID:", 103, 184, 300, 150, 10
+ LTEXT "X / Y:", 104, 184, 311, 150, 10
+ LTEXT "Dirección PPU:", 105, 184, 322, 150, 10
+ LTEXT "Atributo:", 106, 184, 333, 150, 10
+}

@@ -1,0 +1,15 @@
+GUICONFIG DIALOGEX 16, 123, 184, 158, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
+CAPTION "Configuración del GUI"
+FONT 8, "MS Shell Dlg", 0, FALSE
+{
+ AUTOCHECKBOX "Diálogo \"Abrir archivo\"  al iniciar FCEUX", 102, 8, 8, 168, 12
+ AUTOCHECKBOX "Ocultar menú automáticamente al cargar juego", 104, 8, 23, 168, 12
+ AUTOCHECKBOX "Pedir confirmación al salir", 110, 8, 38, 168, 12
+ AUTOCHECKBOX "Desactivar salvapantallas con juego cargado", 111, 8, 53, 168, 12
+ AUTOCHECKBOX "Habilitar menú contextual del botón derecho", 1203, 8, 68, 168, 12
+ AUTOCHECKBOX "Activar pantalla completa con doble-click", 1261, 8, 84, 168, 12
+ AUTOCHECKBOX "Desactivar temas parcialmente (Requiere reinicio)", 1257, 8, 100, 168, 12
+ AUTOCHECKBOX "Modo de solo una instancia", 1258, 8, 117, 167, 10
+ DEFPUSHBUTTON "Cerrar", 1, 65, 136, 56, 14
+}

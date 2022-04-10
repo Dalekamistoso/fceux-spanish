@@ -1,0 +1,71 @@
+MEMVIEWMENU MENU
+{
+ POPUP "&Archivo"
+ {
+  MENUITEM "&Salvar Rom", 100
+  MENUITEM "Sal&var Rom como", 101
+  MENUITEM "&Cargar archivo *.TBL", 102
+  MENUITEM "&Descargar archivo *.TBL", 103
+  POPUP "&Volcar a archivo"
+  {
+   MENUITEM "&Ram", 104
+   MENUITEM "Memoria &PPU", 105
+   MENUITEM "Memoria &OAM", -24944
+   MENUITEM "6502 64K", -24946
+  }
+  POPUP "Cargar desde archi&vo"
+  {
+   MENUITEM "&Ram", -24939
+   MENUITEM "Memoria &PPU", -24938
+   MENUITEM "Memoria &OAM", -24937
+  }
+  MENUITEM "&Ir a dirección\tCtrl+A", -25317
+  MENUITEM SEPARATOR
+  MENUITEM "&Cerrar\tAlt+F4", -25319
+ }
+ POPUP "&Editar"
+ {
+  MENUITEM "&Deshacer\tCtrl+Z", 200
+  MENUITEM SEPARATOR
+  MENUITEM "&Copiar", 201
+  MENUITEM "&Pegar", 202
+  MENUITEM SEPARATOR
+  MENUITEM "&Encontrar...", 203
+ }
+ POPUP "&Ver"
+ {
+  MENUITEM "Memoria &NES", 300
+  MENUITEM "Memoria &PPU", 301
+  MENUITEM "Memoria &OAM", 302
+  MENUITEM "Archivo &ROM", 303
+ }
+ POPUP "Resaltado"
+ {
+  MENUITEM "Actividad de resaltado", -24948
+  MENUITEM "Establecer tiempo de desvanecimiento", -24949
+  MENUITEM "Desvanecer al pausar", -24950
+  MENUITEM SEPARATOR
+  POPUP "Editor de colores hexadecimal"
+  {
+   MENUITEM SEPARATOR
+   MENUITEM "Restaurar predeterminados", -25527
+  }
+  POPUP "Colores del registrador de código/datos"
+  {
+   MENUITEM SEPARATOR
+   MENUITEM "Restaurar predeterminados", -25526
+  }
+ }
+ POPUP "&Marcadores"
+ {
+  MENUITEM "&Quitar los marcadores", 400
+  MENUITEM SEPARATOR
+  MENUITEM "&Importar.", -25531
+  MENUITEM "&Exportar.", -25528
+  MENUITEM "&Opción...", -25529
+ }
+ POPUP "Ayuda"
+ {
+  MENUITEM "Ay&uda...", -25278
+ }
+}

@@ -1,0 +1,21 @@
+TASEDITORCONTEXTMENUS MENU
+{
+ POPUP "Seleccionado"
+ {
+  MENUITEM "Establecer marcas\tDbl-Clk", -24976
+  MENUITEM "Quitar marcas", -24975
+  MENUITEM SEPARATOR
+  MENUITEM "Deseleccionar", -24999
+  MENUITEM "Seleccionar entre marcas\tCtrl+A", -25078
+  MENUITEM SEPARATOR
+  MENUITEM "Ungreenzone", -24965
+  MENUITEM SEPARATOR
+  MENUITEM "Limpiar\tDel", -25089
+  MENUITEM "Borrar\tCtrl+Del", -25331
+  MENUITEM "Clonar\tCtrl+Ins", -25073
+  MENUITEM "Insertar\tCtrl+Shift+Ins", -25332
+  MENUITEM "Inserta # de Frames\tIns", -25111
+  MENUITEM SEPARATOR
+  MENUITEM "Truncar película", -25336
+ }
+}

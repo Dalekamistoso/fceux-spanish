@@ -1,0 +1,8 @@
+LUAWINDOW_MENU MENU
+{
+ POPUP "Consola"
+ {
+  MENUITEM "&Fuente...", 1255
+  MENUITEM "Limpiar", 1254
+ }
+}

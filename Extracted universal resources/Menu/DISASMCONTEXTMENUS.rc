@@ -1,0 +1,8 @@
+DISASMCONTEXTMENUS MENU
+{
+ POPUP "DisasmPopup"
+ {
+  MENUITEM "Copiar\tCtrl+C", -24938
+  MENUITEM "Seleccionar todo\tCtrl+A", -24937
+ }
+}

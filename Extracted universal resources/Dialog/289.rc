@@ -1,0 +1,26 @@
+289 DIALOGEX 0, 0, 223, 208, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
+CAPTION "Opciones de guardado de archivos de proyecto"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ DEFPUSHBUTTON "Aceptar", 1, 109, 187, 50, 14
+ PUSHBUTTON "Cancelar", 2, 165, 187, 50, 14
+ AUTOCHECKBOX "Formato entrada binario", 1203, 122, 17, 89, 10
+ AUTOCHECKBOX "Marcadores", 1204, 122, 32, 67, 10
+ AUTOCHECKBOX "Favoritos", 1205, 122, 47, 67, 10
+ AUTOCHECKBOX " Historial", 1207, 122, 62, 67, 10
+ AUTOCHECKBOX "Rollo de piano/Piano Roll", 1209, 122, 77, 90, 10
+ AUTOCHECKBOX "Selección", 1208, 122, 92, 67, 10
+ GROUPBOX "File contents", -1, 105, 4, 111, 177
+ GROUPBOX "Opciones salvado Greenzone", -1, 112, 106, 97, 69
+ AUTORADIOBUTTON "Todos los fotogramas", 1138, 122, 117, 80, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Cada 16º fotograma", 1139, 122, 131, 77, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "Fotogramas marcados", 1140, 122, 145, 80, 10, NOT WS_TABSTOP
+ AUTORADIOBUTTON "No salvar", 1141, 122, 159, 77, 10, NOT WS_TABSTOP
+ AUTOCHECKBOX "Autosalvar proyecto", 1282, 14, 17, 81, 10
+ AUTOCHECKBOX "silenciosamente", 1283, 14, 47, 65, 10
+ LTEXT "cada", 1306, 14, 32, 21, 8
+ EDITTEXT 1147, 36, 30, 24, 14, ES_AUTOHSCROLL | ES_NUMBER
+ LTEXT "minutos", 1307, 64, 32, 28, 8
+ GROUPBOX "Ajustes", -1, 6, 4, 91, 177
+}

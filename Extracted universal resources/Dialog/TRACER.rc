@@ -1,0 +1,30 @@
+TRACER DIALOGEX 0, 0, 317, 181, 0
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Registrador de seguimiento"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ EDITTEXT 100, 3, 3, 300, 44, ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | WS_HSCROLL
+ SCROLLBAR 101, 303, 3, 11, 44, SBS_VERT
+ AUTORADIOBUTTON "Últi. Reg.", 103, 9, 53, 38, 10, BS_LEFT | NOT WS_TABSTOP
+ COMBOBOX 105, 49, 52, 46, 13, CBS_DROPDOWNLIST | WS_VSCROLL
+ LTEXT "líneas", 106, 97, 54, 20, 10
+ DEFPUSHBUTTON "Iniciar registro", 102, 126, 51, 65, 15, BS_CENTER | BS_VCENTER
+ AUTORADIOBUTTON "Archivo log", 104, 9, 70, 46, 10, BS_LEFT | NOT WS_TABSTOP
+ PUSHBUTTON "Buscar", 112, 56, 68, 39, 14, BS_CENTER | BS_VCENTER
+ AUTOCHECKBOX "Actualizar automáticamente esta ventana al registrar ", 116, 113, 70, 190, 10, BS_LEFT
+ GROUPBOX "Opciones de registro", 109, 3, 85, 311, 65
+ AUTOCHECKBOX "Estado de registros", 110, 8, 96, 99, 10, BS_LEFT
+ AUTOCHECKBOX "Flags de Estado de CPU", 111, 113, 96, 96, 10, BS_LEFT
+ AUTOCHECKBOX "A la izq. desde desensamblado", 118, 211, 96, 100, 10, BS_LEFT
+ AUTOCHECKBOX "Conteo de fotogramas", 119, 8, 109, 98, 10, BS_LEFT
+ AUTOCHECKBOX "Conteo de ciclos", 120, 113, 109, 94, 10, BS_LEFT
+ AUTOCHECKBOX "Conteo de instrucciones", 121, 211, 109, 100, 10, BS_LEFT
+ AUTOCHECKBOX "Mensajes del emulador", 124, 8, 122, 97, 10, BS_LEFT
+ AUTOCHECKBOX "Conicidencias breakpoints", 125, 113, 122, 91, 10, BS_LEFT
+ AUTOCHECKBOX "Traceo simbólico", 123, 8, 135, 96, 10, BS_LEFT
+ AUTOCHECKBOX "Usa Stack Pointer para tabulación código/ver anidamiento", 117, 113, 135, 196, 10, BS_LEFT
+ GROUPBOX "Opciones de registro adicionales que funcionan con el registrador de códigos / datos", 113, 3, 151, 311, 26
+ AUTOCHECKBOX "Sólo código recién mapeado", 114, 8, 162, 102, 10, BS_LEFT
+ AUTOCHECKBOX "Solo código registro que accede a datos recién mapeados", 115, 113, 162, 198, 10, BS_LEFT
+ AUTOCHECKBOX "Nº de banco de registros ", 1203, 211, 121, 100, 10
+}

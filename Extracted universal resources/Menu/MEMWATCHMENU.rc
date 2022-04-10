@@ -1,0 +1,26 @@
+MEMWATCHMENU MENU
+{
+ POPUP "&Archivo  "
+ {
+  MENUITEM "&Nuevo...\tCtrl+N", -25433
+  MENUITEM "&Abrir...\tCtrl+O", -25432
+  MENUITEM "&Guardar\tCtrl+S", -25431
+  MENUITEM "Guardar como..\tCtrl+Shift+S", -25430
+  MENUITEM "&Reciente", -25436
+  MENUITEM SEPARATOR
+  MENUITEM "&Cerrar\tAlt+F4", -25428
+ }
+ POPUP "&Opciones"
+ {
+  MENUITEM "&Cargar al inicio", -25427
+  MENUITEM "Cargar último archivo al inicio", -25434
+  MENUITEM SEPARATOR
+  MENUITEM "&Contraer a 1 columna", -25222
+  MENUITEM SEPARATOR
+  MENUITEM "Vincular a ventana principal", -25175
+ }
+ POPUP "&Ayuda"
+ {
+  MENUITEM "Comandos &MemWatch", -25435
+ }
+}

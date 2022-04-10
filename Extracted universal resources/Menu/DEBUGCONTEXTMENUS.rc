@@ -1,0 +1,7 @@
+DEBUGCONTEXTMENUS MENU
+{
+ POPUP "DebugListPopup"
+ {
+  MENUITEM "Habilitar punto de ruptura/Breakpoint\tDbl-Clk", 132
+ }
+}

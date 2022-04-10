@@ -1,0 +1,217 @@
+FCEUMENU MENU
+{
+ POPUP "&Archivo"
+ {
+  MENUITEM "&Abrir...", 100
+  MENUITEM "&Cerrar", 101
+  MENUITEM "&Reciente", 102
+  MENUITEM SEPARATOR
+  POPUP "&Estados de guardado (Savestates)"
+  {
+   MENUITEM "&Cargar estado", -25193
+   MENUITEM "&Guardar estado", -25192
+   MENUITEM "Cargar estado des&de...", 111
+   MENUITEM "Guardar e&stado como ...", 110
+   MENUITEM SEPARATOR
+   MENUITEM "Ranura de guardado &siguiente", -25189
+   MENUITEM "Ranura de guardado &previa", -25188
+   MENUITEM "&Ver ranuras de guardado", -25186
+  }
+  POPUP "&Películas"
+  {
+   MENUITEM "Reciente", -25182
+   MENUITEM "Grab&ar película...", 141
+   MENUITEM "Re&producir película...", 142
+   MENUITEM "&Detener película", 143
+   MENUITEM "Reproducir desde el &principio", -25262
+   MENUITEM "&Habilitar grabación/reproducción", -25177
+   POPUP "Modificar rápidam&ente"
+   {
+    MENUITEM "&Insertar 1 fotograma (frame)", -25313
+    MENUITEM "&Borrar 1 fotograma (frame)", -25311
+    MENUITEM SEPARATOR
+    MENUITEM "&Truncar en fotograma actual", -25315
+   }
+   MENUITEM SEPARATOR
+   POPUP "Modo de grabació&n"
+   {
+    MENUITEM "&Siguiente modo de grabación", -25409
+    MENUITEM SEPARATOR
+    MENUITEM "&Truncar", -25426
+    MENUITEM "S&obreescribir", -25425
+    MENUITEM "&Insertar", -25424
+   }
+   MENUITEM "&Solo-Lectura", -25205
+  }
+  POPUP "&AVI/Wav"
+  {
+   MENUITEM "&Grabar AVI...", 151
+   MENUITEM "&Parar AVI", 152
+   MENUITEM "&Grabar WAV...", -25416
+   MENUITEM "&Detener WAV", -25415
+   MENUITEM SEPARATOR
+   MENUITEM "Activar HUD de grabación", -25096
+   MENUITEM "Desactivar mensajes de grabación", -25131
+  }
+  POPUP "&Lua"
+  {
+   MENUITEM "&Reciente", -25184
+   MENUITEM "&Nueva ventana de script Lua...", -25307
+   MENUITEM "&Cerrar todas las ventanas de script", -25306
+  }
+  MENUITEM "&Capturas de pantalla", -25264
+  MENUITEM "Guardar captura como...", -25125
+  MENUITEM SEPARATOR
+  MENUITEM "Sa&lir\tAlt+F4", 153
+ }
+ POPUP "&NES"
+ {
+  MENUITEM "&Reiniciar", 200
+  MENUITEM "&Encender/Apagar", 201
+  MENUITEM SEPARATOR
+  MENUITEM "&Expulsar/Insertar disco", 202
+  MENUITEM "&Cambiar cara de disco", 203
+  MENUITEM "&Insertar moneda", 204
+  MENUITEM "Introducir código de &barras", -25532
+  MENUITEM SEPARATOR
+  POPUP "Velocidad de e&mulación"
+  {
+   MENUITEM "&Pausa", -25273
+   MENUITEM "&Turbo", -25267
+   MENUITEM SEPARATOR
+   MENUITEM "S&ubir velocidad", -25271
+   MENUITEM "Ba&jar velocidad", -25270
+   MENUITEM "Velocidad &más baja", -25266
+   MENUITEM "Velocidad &normal", -25268
+   MENUITEM "Establece velocidad &personalizada", -24959
+   MENUITEM SEPARATOR
+   MENUITEM "Establecer retraso de avance de fotograma", -24962
+   MENUITEM "Establecer velocidad de avance de fotograma", -24960
+  }
+ }
+ POPUP "&Configuración"
+ {
+  MENUITEM "&Ocultar menú", 300
+  POPUP "&Habilitar"
+  {
+   MENUITEM "&Ejecutar de fondo", 301
+   MENUITEM "Entrada de &fondo", 302
+   MENUITEM "&Auto-guardados (savestates)", 304
+   MENUITEM "Av. &fotograma - Omitir retraso", -25297
+   MENUITEM "Backup de estados guardados", -25135
+   MENUITEM "Comprimir Savestates", -25134
+   MENUITEM "&Game Genie ROM", 310
+   MENUITEM "Auto-reanudar sesion de juego vieja", -24957
+  }
+  POPUP "&Gráficos"
+  {
+   POPUP "Mostrar &entrada"
+   {
+    MENUITEM "&apagado", -25286
+    MENUITEM "&1 jugador", -25285
+    MENUITEM "&2 jugadores", -25284
+    MENUITEM "&4 jugadores", -25283
+    MENUITEM SEPARATOR
+    MENUITEM "Disp. viejo estilo", -25130
+   }
+   MENUITEM "Contador de &Lag (retraso)", -25299
+   MENUITEM "Contador de &Fotograma", -25282
+   MENUITEM "Contador de &Regrabación", -25100
+   MENUITEM "Icono de estado de &película", -25099
+   MENUITEM "FPS", -24971
+   MENUITEM SEPARATOR
+   MENUITEM "Gráficos: &BG", -25389
+   MENUITEM "Gráficos: &OBJ", -25388
+  }
+  MENUITEM SEPARATOR
+  POPUP "Región"
+  {
+   MENUITEM "NTSC", 330
+   MENUITEM "&PAL", 331
+   MENUITEM "Dendy", 332
+  }
+  POPUP "PPU"
+  {
+   MENUITEM "Vieja PPU", -25170
+   MENUITEM "Nueva PPU", -25171
+  }
+  POPUP "RAM Init"
+  {
+   MENUITEM "&por defecto", -24943
+   MENUITEM "Rellenar $&FF", -24942
+   MENUITEM "Rellenar $&00", -24941
+   MENUITEM "&Aleatorio", -24940
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "&Directorios...", 320
+  MENUITEM "&GUI...", 327
+  MENUITEM "&Entrada...", 321
+  MENUITEM "&Juego en red...", -25496
+  MENUITEM "&Paleta...", -25495
+  MENUITEM "&Sonido..", -25494
+  MENUITEM "&Timing...", -25493
+  MENUITEM "&Video...", -25492
+  MENUITEM "Opciones de pelí&cula...", -25214
+  MENUITEM "&Mapear atajos de teclado...", -25491
+  MENUITEM SEPARATOR
+  MENUITEM "Guardar achivo de configuración", -25169
+ }
+ POPUP "&Herramientas"
+ {
+  MENUITEM "&Trucos...", -25488
+  MENUITEM "Búsqueda RAM...", -25160
+  MENUITEM "Observación de RAM...", -25159
+  MENUITEM "Observación de &memoria...", -25455
+  MENUITEM "Editor de &TAS...", -25012
+  MENUITEM "Convertir &FCM...", -25386
+  MENUITEM SEPARATOR
+  POPUP "&Patrón de autodisparo"
+  {
+   MENUITEM "1 activado, 1 desactivado", -25486
+   MENUITEM "1 activado, 2 desactivado", -25485
+   MENUITEM "1 activado, 3 desactivado", -25484
+   MENUITEM "1 activado, 4 desactivado", -25483
+   MENUITEM "1 activado, 5 desactivado", -25482
+   MENUITEM "2 activado, 1 desactivado", -25481
+   MENUITEM "2 activado, 2 desactivado", -25480
+   MENUITEM "2 activado, 3 desactivado", -25479
+   MENUITEM "2 activado, 4 desactivado", -25478
+   MENUITEM "3 activado, 1 desactivado", -25477
+   MENUITEM "3 activado, 2 desactivado", -25476
+   MENUITEM "3 activado, 3 desactivado", -25475
+   MENUITEM "4 activado, 1 desactivado", -25474
+   MENUITEM "4 activado, 2 desactivado", -25473
+   MENUITEM "5 activado, 1 desactivado", -25472
+  }
+  POPUP "&Offset de autodisparo"
+  {
+   MENUITEM "0 fotogramas", -25471
+   MENUITEM "1 fotograma", -25470
+   MENUITEM "2 fotogramas", -25469
+   MENUITEM "3 fotogramas", -25468
+   MENUITEM "4 fotogramas", -25467
+   MENUITEM "5 fotogramas", -25466
+  }
+  MENUITEM "&Alternar A y B", -25465
+  MENUITEM SEPARATOR
+  MENUITEM "&Capturador de texto...", -25378
+ }
+ POPUP "&Depurador"
+ {
+  MENUITEM "&Depurador...", -25456
+  MENUITEM "Visor de &PPU...", -25462
+  MENUITEM "Visor de &Nombres de tablas...", -25461
+  MENUITEM "Editor &Hex...", -25460
+  MENUITEM "Registrador de pista (&Trace Logger)...", -25459
+  MENUITEM "Registrador &Código/Datos...", -25458
+  MENUITEM "Decodificador/Codificador &Game Genie...", -25457
+  MENUITEM "Editor de cabeceras &iNES...", -25535
+ }
+ POPUP "A&yuda"
+ {
+  MENUITEM "A&yuda...", -25396
+  MENUITEM "Registro de &mensajes", -25489
+  MENUITEM SEPARATOR
+  MENUITEM "&Acerca de", -25490
+ }
+}

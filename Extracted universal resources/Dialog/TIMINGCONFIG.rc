@@ -1,0 +1,15 @@
+TIMINGCONFIG DIALOGEX 23, 157, 203, 110, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
+CAPTION "Configuración de Timing"
+FONT 8, "MS Shell Dlg", 0, FALSE
+{
+ AUTOCHECKBOX "Quitar limitación de velocidad con sonido desactivado.", 101, 10, 8, 183, 12
+ AUTOCHECKBOX "Establecer hilo de alta prioridad", 105, 10, 24, 150, 12
+ AUTOCHECKBOX "Overclocking (sólo vieja PPU).", 1203, 10, 41, 110, 10
+ LTEXT "Scanlines Post-render:", 1309, 21, 57, 74, 8, WS_DISABLED
+ EDITTEXT 1147, 104, 55, 84, 14, ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+ AUTOCHECKBOX "No overclockear muestras de 7 bits", 1293, 10, 87, 125, 10, WS_DISABLED
+ LTEXT "Scanlines VBlank:", 1308, 21, 71, 76, 8, WS_DISABLED
+ EDITTEXT 1148, 104, 68, 84, 14, ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+ DEFPUSHBUTTON "Cerrar", 1, 137, 87, 56, 14
+}

@@ -1,0 +1,8 @@
+312 MENU
+{
+ POPUP "Resaltado de sintaxis"
+ {
+  MENUITEM SEPARATOR
+  MENUITEM "Restaurar por defecto", -25525
+ }
+}

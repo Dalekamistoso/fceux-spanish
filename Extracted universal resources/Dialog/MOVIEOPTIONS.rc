@@ -1,0 +1,19 @@
+MOVIEOPTIONS DIALOGEX -16, 76, 147, 222, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
+CAPTION "Opciones de película"
+FONT 8, "MS Shell Dlg", 0, FALSE
+{
+ AUTOCHECKBOX "Pausar tras reproducción", 1193, 13, 26, 110, 10
+ AUTOCHECKBOX "Vincular savestates a peliculas", 1194, 13, 64, 111, 10
+ AUTOCHECKBOX "Mostrar subtitulos de pelicula", 1196, 13, 83, 110, 10
+ AUTOCHECKBOX "Poner subtitulos en AVI", 1197, 33, 101, 102, 10
+ AUTOCHECKBOX "Autoguardar peliculas", 1198, 13, 122, 114, 10
+ AUTOCHECKBOX "Cargar estados de películas", 1203, 13, 141, 110, 10
+ LTEXT "Cargar estados en grabación", -1, 25, 153, 106, 8
+ LTEXT "no truncará inmediatamente", -1, 25, 163, 107, 8
+ LTEXT "la pelicula, el próximo frame sí.", -1, 25, 173, 108, 8
+ AUTOCHECKBOX "Cerrar tras reproducir", 1258, 13, 45, 89, 10
+ AUTOCHECKBOX "Sugerir repetición modo sólo lectura", 1201, 13, 8, 125, 10
+ LTEXT "(Estilo VBA-rr y SNES9x)", -1, 25, 184, 93, 8
+ DEFPUSHBUTTON "Close", 1192, 48, 200, 49, 14, BS_CENTER
+}

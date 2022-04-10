@@ -1,0 +1,17 @@
+CHEATCONTEXTMENUS MENU
+{
+ POPUP "CheatListPopup"
+ {
+  MENUITEM "Activar trucos seleccionados", 117
+  MENUITEM "Valor del Poke del truco", 118
+  MENUITEM "Ir al editor hexadecimal", 119
+  MENUITEM "Borrar trucos seleccionados", 120
+ }
+ POPUP "CheatPossiPopup"
+ {
+  MENUITEM "Agregar a búsqueda de memoria", -24936
+  MENUITEM "Agregar truco", -24935
+  MENUITEM "Agregar a búsqueda RAM", -24933
+  MENUITEM "Ir al editor hexadecimal", -24964
+ }
+}

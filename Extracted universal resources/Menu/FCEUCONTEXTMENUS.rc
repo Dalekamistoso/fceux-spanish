@@ -1,0 +1,153 @@
+FCEUCONTEXTMENUS MENU
+{
+ POPUP "NoGame"
+ {
+  MENUITEM "Abrir ROM", -25250
+  MENUITEM "Abrir última ROM usada", -25208
+  MENUITEM SEPARATOR
+  MENUITEM "Ayuda...", -25249
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+ POPUP "Game+NoMovie"
+ {
+  MENUITEM "Reproducir película...", -25254
+  MENUITEM "Grabar película...", -25233
+  MENUITEM "Cargar última película", -25180
+  MENUITEM SEPARATOR
+  MENUITEM "Deshacer estado guardado", -25212
+  MENUITEM "Deshacer estado cargado", -25220
+  MENUITEM "Rebobinar al último autoguardado", -25229
+  MENUITEM "Captura de pantalla", -25231
+  MENUITEM SEPARATOR
+  MENUITEM "Cerrar ROM", -25238
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+ POPUP "Game+Movie+Playing+readonly"
+ {
+  MENUITEM "Activar para lectura+escritura", -25201
+  MENUITEM "Reproducir película desde el principio", -25241
+  MENUITEM "Detener repetición de película", -25240
+  MENUITEM "Ver comentarios y subtitulos", -25225
+  MENUITEM SEPARATOR
+  MENUITEM "Activar para grabar", -25176
+  POPUP "Modificar película"
+  {
+   MENUITEM "Inserta 1 fotograma", -25312
+   MENUITEM "Elimina 1 fotograma", -25310
+   MENUITEM SEPARATOR
+   MENUITEM "Truncar en fotograma actual", -25314
+  }
+  POPUP "Record Mode"
+  {
+   MENUITEM "&Truncar", -25421
+   MENUITEM "&Sobreescribir", -25420
+   MENUITEM "&Insertar", -25419
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Deshacer estado guardado", -25212
+  MENUITEM "Rebobinar al último auto-guardado", -25229
+  MENUITEM SEPARATOR
+  MENUITEM "Ayuda....", -25255
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+ POPUP "Game+Movie+Playing+readwrite"
+ {
+  MENUITEM "Activar para solo lectura", -25201
+  MENUITEM "Reproducir película desde el principio", -25241
+  MENUITEM "Detener repetición de película", -25240
+  MENUITEM "Ver comentarios y subtitulos", -25225
+  MENUITEM "Hacer copia de seguridad", -25216
+  MENUITEM "Guardar película como...", -25178
+  MENUITEM SEPARATOR
+  MENUITEM "Activar para grabación", -25176
+  POPUP "Modificar película"
+  {
+   MENUITEM "Insertar 1 fotograma", -25312
+   MENUITEM "Eliminar 1 fotograma", -25310
+   MENUITEM SEPARATOR
+   MENUITEM "Truncar en fotograma actual", -25314
+  }
+  POPUP "Record Mode"
+  {
+   MENUITEM "&Truncar", -25421
+   MENUITEM "&Sobreescribir", -25420
+   MENUITEM "&Insertar", -25419
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Deshacer estado guardado", -25212
+  MENUITEM "Deshacer estado cargado", -25220
+  MENUITEM "Rebobinar al último auto-guardado", -25229
+  MENUITEM SEPARATOR
+  MENUITEM "&Modo: Cargas de películas de estado completo", -25127
+  MENUITEM SEPARATOR
+  MENUITEM "Ayuda...", -25255
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+ POPUP "Game+Movie+Recording+readonly"
+ {
+  MENUITEM "Activar para lectura+escritura", -25201
+  MENUITEM "Reproducir película desde el principio", -25241
+  MENUITEM "Detener grabación de película", -25240
+  MENUITEM "Ver comentarios y subtitulos", -25225
+  MENUITEM SEPARATOR
+  MENUITEM "Habilitar para reproducir", -25176
+  POPUP "Modificar película"
+  {
+   MENUITEM "Insertar 1 fotograma", -25312
+   MENUITEM "Eliminar 1 fotograma", -25310
+   MENUITEM SEPARATOR
+   MENUITEM "Truncar en fotograma actual", -25314
+  }
+  POPUP "Record Mode"
+  {
+   MENUITEM "&Truncar", -25421
+   MENUITEM "&Sobreescribir", -25420
+   MENUITEM "&Insertar", -25419
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Deshacer estado guardado", -25212
+  MENUITEM "Rebobinar al último auto-guardado", -25229
+  MENUITEM SEPARATOR
+  MENUITEM "Ayuda....", -25255
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+ POPUP "Game+Movie+Recording+readwrite"
+ {
+  MENUITEM "Activar para solo lectura", -25201
+  MENUITEM "Reproducir película desde el principio", -25241
+  MENUITEM "Detener grabación de película", -25240
+  MENUITEM "Ver comentarios y subtitulos", -25225
+  MENUITEM "Hacer copia de seguridad", -25216
+  MENUITEM "Guardar película como...", -25178
+  MENUITEM SEPARATOR
+  MENUITEM "Habilitar para reproducir", -25176
+  POPUP "Modificar película"
+  {
+   MENUITEM "Insertar 1 fotograma", -25312
+   MENUITEM "Eliminar 1 fotograma", -25310
+   MENUITEM SEPARATOR
+   MENUITEM "Truncar en fotograma actual", -25314
+  }
+  POPUP "Record Mode"
+  {
+   MENUITEM "&Truncate", -25421
+   MENUITEM "&Overwrite[W]", -25420
+   MENUITEM "&Insert[I]", -25419
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Deshacer estado guardado", -25212
+  MENUITEM "Deshacer estado cargado", -25220
+  MENUITEM "Rebobinar al último auto-guardado", -25229
+  MENUITEM SEPARATOR
+  MENUITEM "&Modo: Cargas de películas de estado completo", -25127
+  MENUITEM SEPARATOR
+  MENUITEM "Ayuda...", -25255
+  MENUITEM SEPARATOR
+  MENUITEM "Usa Configuración > Gui para usar el zapper con el botón derecho del ratón", -25118
+ }
+}

@@ -1,0 +1,13 @@
+199 DIALOGEX 0, 0, 238, 78, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
+CAPTION "Acerca de"
+FONT 8, "MS Shell Dlg", 400, FALSE
+{
+ DEFPUSHBUTTON "Aceptar", 2, 94, 55, 50, 14
+ ICON 201, -1, 11, 11, 20, 20
+ LTEXT "Editor TAS", 1280, 43, 8, 84, 13
+ LTEXT "Versión 1.01", -1, 60, 25, 45, 8
+ LTEXT "Creado por AnS", -1, 138, 12, 58, 8
+ LTEXT "Originado de TASEdit", -1, 138, 25, 85, 9, SS_NOPREFIX
+ LTEXT "hecho por zeromus & adelikat", -1, 138, 35, 96, 9, SS_NOPREFIX
+}

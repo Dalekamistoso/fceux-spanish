@@ -1,0 +1,28 @@
+RAMWATCH_MENU MENU
+{
+ POPUP "Archivo"
+ {
+  MENUITEM "&Nueva lista\tCtrl N", -25162
+  MENUITEM "&Abrir...\tCtrl O", -25164
+  MENUITEM "&Guardar\tCtrl S", -25166
+  MENUITEM "Guardar c&omo\tCtrl Shift S", -25165
+  MENUITEM "&Añadir archivo", -25163
+  MENUITEM "Reciente", -25161
+  MENUITEM SEPARATOR
+  MENUITEM "Auto-&carga", -25168
+  MENUITEM "Guardar posición de ventana", -25167
+  MENUITEM SEPARATOR
+  MENUITEM "&Cerrar\tAlt F4", 2
+ }
+ POPUP "Observadores"
+ {
+  MENUITEM "&Nueva observación\tN", 1208
+  MENUITEM "&Editar observación\tE", 1239
+  MENUITEM "&Quitar observación\tR", 1240
+  MENUITEM "Duplicar observación\tA", 1241
+  MENUITEM "Agregar &Separador\tS", 1259
+  MENUITEM SEPARATOR
+  MENUITEM "Mover arriba\tU", 1243
+  MENUITEM "Mover abajo\tD", 1244
+ }
+}

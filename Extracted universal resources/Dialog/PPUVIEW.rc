@@ -1,0 +1,18 @@
+PPUVIEW DIALOGEX 44, 38, 353, 234, 0
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
+CAPTION "Visualizador de PPU"
+FONT 8, "MS Shell Dlg", 0, FALSE
+{
+ GROUPBOX "Tablas de patrones", 101, 2, -1, 348, 185, WS_TABSTOP
+ LTEXT "Tile:", 103, 6, 138, 50, 9
+ LTEXT "Tile:", 104, 178, 138, 50, 9
+ LTEXT "Refresco:  Más", -1, 230, 151, 50, 9
+ CONTROL "", 201, "msctls_trackbar32", WS_TABSTOP, 280, 151, 50, 11
+ LTEXT "Menos", -1, 330, 151, 20, 10
+ LTEXT "Ver en scanline:", -1, 253, 166, 65, 9
+ EDITTEXT 102, 315, 164, 27, 12, ES_NUMBER
+ AUTOCHECKBOX "Modo Sprites 8x16", 1205, 6, 151, 160, 10
+ AUTOCHECKBOX "Enmascarar gráficos sin usar (Código/Registro de datos)", 1203, 6, 162, 200, 10
+ AUTOCHECKBOX "Invertir máscara (Código/Registro de datos)", 1204, 6, 173, 160, 10
+ GROUPBOX "Paletas", 105, 2, 185, 348, 46, WS_TABSTOP
+}

@@ -1,0 +1,88 @@
+TASEDITORMENU MENUEX
+{
+ POPUP "Archivo", -1
+ {
+  MENUITEM "Nuevo", -25011
+  MENUITEM "Abrir", -25355
+  MENUITEM "Salvar\tCtrl+S", -25364
+  MENUITEM "Salvar como", -25354
+  MENUITEM "Salvar compacto", -25052
+  MENUITEM "Reciente", -25436
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Importar entrada", -25358
+  MENUITEM "Exportar a FM2", -25353
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Cerrar\tAlt+F4", -25019
+ }
+ POPUP "Editar", -1
+ {
+  MENUITEM "Deshacer\tCtrl+Z", -25068
+  MENUITEM "Rehacer\tCtrl+Y", -25067
+  MENUITEM "Deshacer selección\tCtrl+Q", -25055
+  MENUITEM "Rehacer selección\tCtrl+W", -25054
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Deseleccionar", -25000
+  MENUITEM "Seleccionar todo", -25322
+  MENUITEM "Seleccionar entre marcas\tCtrl+A", -25079
+  MENUITEM "Reseleccionar portapapeles\tCtrl+B", -25053
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Copiar\tCtrl+C", -25015
+  MENUITEM "Pegar\tCtrl+V", -25016
+  MENUITEM "Pegar Insertar\tCtrl+Shift+V", -25041
+  MENUITEM "Cortar\tCtrl+X", -25014
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Limpiar\tDel", -25086
+  MENUITEM "Borrar\tCtrl+Del", -25367
+  MENUITEM "Clonar\tCtrl+Ins", -25076
+  MENUITEM "Insertar\tCtrl+Shift+Ins", -25085
+  MENUITEM "Insertar # de Fotogramas\tIns", -25084
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Truncar película", -25359
+ }
+ POPUP "Ver", -1
+ {
+  MENUITEM "Encontrar venanta de notas\tCtrl+F", -25021
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Mostrar capturas de pantalla de rama", -25047
+  MENUITEM "Mostrar descripciones de rama", -25028
+  MENUITEM "Habilitar cambios en caliente", -25048
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Seguir contexto de deshacer", -25064
+  MENUITEM "Seguir contexto de nota de marca ", -25029
+ }
+ POPUP "Configuración", -1
+ {
+  MENUITEM "Opciones de salvado de archivo de proyecto", -24955
+  MENUITEM "Establecer máximo niveles de deshacer", -25066
+  MENUITEM "Establecer capacidad de Greenzone", -25104
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Habilitar Greenzoning", -24963
+  MENUITEM "Patrón de autodisparo ignora el lag", -24968
+  MENUITEM "Auto-ajustar entrada de acuerdo al lag", -24969
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Dibujar entrada arrastrando", -24997
+  MENUITEM "Combinar dibujos/grabaciones consecutivas", -25044
+  MENUITEM "Usar teclas de 1P para todas las grabaciones sueltas", -25045
+  MENUITEM "Usar teclas de entrada para establecer columnas", -25027
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Vincular marcadores a entrada", -25082
+  MENUITEM "Vaciar nuevas notas de marcador", -25026
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Viejo esquema de control para ramificado", -25062
+  MENUITEM "Ramales restauran la película entera", -25063
+  MENUITEM "HUD en la rama de capturas de pantalla", -25061
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Autopausa al final de la película", -24977
+ }
+ POPUP "Ayuda", -1
+ {
+  MENUITEM "Abrir manual del editor TAS", -24972
+  MENUITEM "Habilitar Tooltips", -25009
+  MENUITEM "", 0, MFT_SEPARATOR
+  MENUITEM "Acerca de", -25051
+ }
+ POPUP "Patrón", -1, MFT_RIGHTJUSTIFY
+ {
+  MENUITEM "Vacío", -25002
+ }
+}
